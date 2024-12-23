@@ -1,3 +1,4 @@
+import NewsPaper from "@/components/newsPaper/NewsPaper";
 import SearchResult from "@/components/SearchResult/SearchResult";
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
         <p>Toggle the theme to see the changes!</p>
       </div>
       {/* <SearchResult /> */}
-     
+      <NewsPaper />
     </div>
   );
 }
