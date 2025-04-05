@@ -20,7 +20,7 @@ export function ThemeProvider({ children }) {
     };
 
     return (
-        <>
+        <div className='bg-white dark:bg-dark text-black dark:text-white'>
             <div className="bg-gray-200 dark:bg-gray-950 text-black dark:text-white flex items-center justify-end py-4 px-10 sticky top-0">
                 <button
                     onClick={toggleTheme}
@@ -64,6 +64,6 @@ export function ThemeProvider({ children }) {
                 </button>
             </div>
             {children}
-        </>
+        </div>
     );
 }
