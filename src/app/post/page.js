@@ -12,7 +12,7 @@ const PostPage = async () => {
                     <Link
                         href={`post/${post?.id}`}
                         key={post?.id}
-                        className='border rounded border-white p-5 cursor-pointer'
+                        className='border rounded border-white dark:border-white p-5 cursor-pointer'
                     >
                         <h1>{post?.title}</h1>
                         <p>{post?.body}</p>

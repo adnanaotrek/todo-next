@@ -7,7 +7,7 @@ const PostDetailsPage = async ({ params }) => {
     return (
         <div>
             <div
-                className='border rounded border-white p-5 cursor-pointer'
+                className='border rounded border-black dark:border-white p-5 cursor-pointer'
             >
                 <h1>{singlePost?.title}</h1>
                 <p>{singlePost?.body}</p>
